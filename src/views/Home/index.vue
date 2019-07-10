@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-   <h1>home</h1>
-  </div>
+  
+  <router-view></router-view>
 </template>
 
 <script>
@@ -9,5 +8,13 @@
 
 export default {
   
-}
+  mounted() {
+    // this.mySwiper.updateContainerSize();
+  }
+};
 </script>
+
+<style>
+
+</style>
+
